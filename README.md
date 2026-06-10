@@ -1,6 +1,6 @@
 <div align="center">
   <img
-    src="https://www.thisiscolossal.com/wp-content/uploads/2018/04/agif2opt.gif"
+    src="https://images.rawpixel.com/dark_image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTA1L3JtMTkyNS1hbS1lbGVtZW50LTA4LnBuZw.png"
     alt="Header"
     width="360"
   />
