@@ -2,9 +2,7 @@
   <img
     src="https://www.thisiscolossal.com/wp-content/uploads/2018/04/agif2opt.gif"
     alt="Header"
-    width="420"
-    height="180"
-    style="object-fit: cover; border-radius: 12px;"
+    width="360"
   />
 </div>
 
