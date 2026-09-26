@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="260" height="286.0" viewBox="0 0 260 286.0">
   <style>
-    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 500; fill: #ffffff; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 500; fill: #ffffff; }
     .lang-text { font-family: monospace, Courier New, Menlo, Consolas; font-size: 12px; fill: #ffffff; }
     .bar { fill: #ffffff; }
     .dots { font-family: monospace, Courier New, Menlo, Consolas; font-size: 14px; fill: #ffffff; }
