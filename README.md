@@ -12,8 +12,6 @@
   </a>
 </p>
 
-## 💻 Most Used Languages
-
 <img
   src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Wildann77&theme=github_dark"
   alt="Most Used Languages"
