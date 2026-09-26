@@ -52,9 +52,6 @@ def generate_svg(languages, max_langs=10):
         return ""
         
     width = 260
-    card_bg = "#212121"
-    text_color = "#ffffff"
-    bar_color = "#ffffff"
     title = "Languages"
     
     pad_x = 20
@@ -78,11 +75,11 @@ def generate_svg(languages, max_langs=10):
         segments = []
         for s in range(num_segs):
             sx = bar_start_x + s * (seg_width + seg_gap)
-            segments.append(f'<rect x="{sx:.1f}" y="{y - 9.5:.1f}" width="{seg_width:.1f}" height="{bar_height:.1f}" fill="{bar_color}" />')
+            segments.append(f'<rect class="bar" x="{sx:.1f}" y="{y - 9.5:.1f}" width="{seg_width:.1f}" height="{bar_height:.1f}" />')
             
         segs_str = "\n    ".join(segments)
         rows.append(f"""  <!-- {name} -->
-  <text x="{pad_x}" y="{y:.1f}" fill="{text_color}" font-family="monospace, Courier New, Menlo, Consolas" font-size="12px">{name}</text>
+  <text class="lang-text" x="{pad_x}" y="{y:.1f}">{name}</text>
   <g>
     {segs_str}
   </g>""")
@@ -91,10 +88,19 @@ def generate_svg(languages, max_langs=10):
     total_height = dots_y + 18
     
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{total_height}" viewBox="0 0 {width} {total_height}">
-  <rect width="{width}" height="{total_height}" fill="{card_bg}" rx="14" />
-  <text x="{pad_x}" y="30" fill="{text_color}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13px" font-weight="500">{title}</text>
+  <style>
+    .title {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 500; fill: #ffffff; }}
+    .lang-text {{ font-family: monospace, Courier New, Menlo, Consolas; font-size: 12px; fill: #ffffff; }}
+    .bar {{ fill: #ffffff; }}
+    .dots {{ font-family: monospace, Courier New, Menlo, Consolas; font-size: 14px; fill: #ffffff; }}
+    @media (prefers-color-scheme: light) {{
+      .title, .lang-text, .bar, .dots {{ fill: #24292f; }}
+    }}
+  </style>
+  <rect width="{width}" height="{total_height}" fill="transparent" />
+  <text class="title" x="{pad_x}" y="30">{title}</text>
 {chr(10).join(rows)}
-  <text x="{pad_x}" y="{dots_y:.1f}" fill="{text_color}" font-family="monospace, Courier New, Menlo, Consolas" font-size="14px">...</text>
+  <text class="dots" x="{pad_x}" y="{dots_y:.1f}">...</text>
 </svg>"""
     return svg
 
@@ -104,4 +110,4 @@ if __name__ == "__main__":
     svg = generate_svg(langs)
     with open("images/languages.svg", "w") as f:
         f.write(svg)
-    print("Updated images/languages.svg")
+    print("Updated images/languages.svg with transparent background")
