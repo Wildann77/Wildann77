@@ -1,117 +1,126 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="260" height="286.0" viewBox="0 0 260 286.0">
-  <rect width="260" height="286.0" fill="#212121" rx="14" />
-  <text x="20" y="30" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13px" font-weight="500">Languages</text>
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 500; fill: #ffffff; }
+    .lang-text { font-family: monospace, Courier New, Menlo, Consolas; font-size: 12px; fill: #ffffff; }
+    .bar { fill: #ffffff; }
+    .dots { font-family: monospace, Courier New, Menlo, Consolas; font-size: 14px; fill: #ffffff; }
+    @media (prefers-color-scheme: light) {
+      .title, .lang-text, .bar, .dots { fill: #24292f; }
+    }
+  </style>
+  <rect width="260" height="286.0" fill="transparent" />
+  <text class="title" x="20" y="30">Languages</text>
   <!-- TypeScript -->
-  <text x="20" y="62.0" fill="#ffffff" font-family="monospace, Courier New, Menlo, Consolas" font-size="12px">TypeScript</text>
+  <text class="lang-text" x="20" y="62.0">TypeScript</text>
   <g>
-    <rect x="114.0" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="119.8" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="125.6" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="131.4" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="137.2" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="143.0" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="148.8" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="154.6" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="160.4" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="166.2" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="172.0" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="177.8" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="183.6" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="189.4" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="195.2" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="201.0" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="206.8" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="212.6" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="218.4" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="224.2" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="230.0" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="235.8" y="52.5" width="4.8" height="11.5" fill="#ffffff" />
+    <rect class="bar" x="114.0" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="119.8" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="125.6" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="131.4" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="137.2" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="143.0" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="148.8" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="154.6" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="160.4" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="166.2" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="172.0" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="177.8" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="183.6" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="189.4" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="195.2" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="201.0" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="206.8" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="212.6" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="218.4" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="224.2" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="230.0" y="52.5" width="4.8" height="11.5" />
+    <rect class="bar" x="235.8" y="52.5" width="4.8" height="11.5" />
   </g>
   <!-- JavaScript -->
-  <text x="20" y="82.5" fill="#ffffff" font-family="monospace, Courier New, Menlo, Consolas" font-size="12px">JavaScript</text>
+  <text class="lang-text" x="20" y="82.5">JavaScript</text>
   <g>
-    <rect x="114.0" y="73.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="119.8" y="73.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="125.6" y="73.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="131.4" y="73.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="137.2" y="73.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="143.0" y="73.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="148.8" y="73.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="154.6" y="73.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="160.4" y="73.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="166.2" y="73.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="172.0" y="73.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="177.8" y="73.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="183.6" y="73.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="189.4" y="73.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="195.2" y="73.0" width="4.8" height="11.5" fill="#ffffff" />
+    <rect class="bar" x="114.0" y="73.0" width="4.8" height="11.5" />
+    <rect class="bar" x="119.8" y="73.0" width="4.8" height="11.5" />
+    <rect class="bar" x="125.6" y="73.0" width="4.8" height="11.5" />
+    <rect class="bar" x="131.4" y="73.0" width="4.8" height="11.5" />
+    <rect class="bar" x="137.2" y="73.0" width="4.8" height="11.5" />
+    <rect class="bar" x="143.0" y="73.0" width="4.8" height="11.5" />
+    <rect class="bar" x="148.8" y="73.0" width="4.8" height="11.5" />
+    <rect class="bar" x="154.6" y="73.0" width="4.8" height="11.5" />
+    <rect class="bar" x="160.4" y="73.0" width="4.8" height="11.5" />
+    <rect class="bar" x="166.2" y="73.0" width="4.8" height="11.5" />
+    <rect class="bar" x="172.0" y="73.0" width="4.8" height="11.5" />
+    <rect class="bar" x="177.8" y="73.0" width="4.8" height="11.5" />
+    <rect class="bar" x="183.6" y="73.0" width="4.8" height="11.5" />
+    <rect class="bar" x="189.4" y="73.0" width="4.8" height="11.5" />
+    <rect class="bar" x="195.2" y="73.0" width="4.8" height="11.5" />
   </g>
   <!-- Go -->
-  <text x="20" y="103.0" fill="#ffffff" font-family="monospace, Courier New, Menlo, Consolas" font-size="12px">Go</text>
+  <text class="lang-text" x="20" y="103.0">Go</text>
   <g>
-    <rect x="114.0" y="93.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="119.8" y="93.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="125.6" y="93.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="131.4" y="93.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="137.2" y="93.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="143.0" y="93.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="148.8" y="93.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="154.6" y="93.5" width="4.8" height="11.5" fill="#ffffff" />
+    <rect class="bar" x="114.0" y="93.5" width="4.8" height="11.5" />
+    <rect class="bar" x="119.8" y="93.5" width="4.8" height="11.5" />
+    <rect class="bar" x="125.6" y="93.5" width="4.8" height="11.5" />
+    <rect class="bar" x="131.4" y="93.5" width="4.8" height="11.5" />
+    <rect class="bar" x="137.2" y="93.5" width="4.8" height="11.5" />
+    <rect class="bar" x="143.0" y="93.5" width="4.8" height="11.5" />
+    <rect class="bar" x="148.8" y="93.5" width="4.8" height="11.5" />
+    <rect class="bar" x="154.6" y="93.5" width="4.8" height="11.5" />
   </g>
   <!-- C# -->
-  <text x="20" y="123.5" fill="#ffffff" font-family="monospace, Courier New, Menlo, Consolas" font-size="12px">C#</text>
+  <text class="lang-text" x="20" y="123.5">C#</text>
   <g>
-    <rect x="114.0" y="114.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="119.8" y="114.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="125.6" y="114.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="131.4" y="114.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="137.2" y="114.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="143.0" y="114.0" width="4.8" height="11.5" fill="#ffffff" />
+    <rect class="bar" x="114.0" y="114.0" width="4.8" height="11.5" />
+    <rect class="bar" x="119.8" y="114.0" width="4.8" height="11.5" />
+    <rect class="bar" x="125.6" y="114.0" width="4.8" height="11.5" />
+    <rect class="bar" x="131.4" y="114.0" width="4.8" height="11.5" />
+    <rect class="bar" x="137.2" y="114.0" width="4.8" height="11.5" />
+    <rect class="bar" x="143.0" y="114.0" width="4.8" height="11.5" />
   </g>
   <!-- Dart -->
-  <text x="20" y="144.0" fill="#ffffff" font-family="monospace, Courier New, Menlo, Consolas" font-size="12px">Dart</text>
+  <text class="lang-text" x="20" y="144.0">Dart</text>
   <g>
-    <rect x="114.0" y="134.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="119.8" y="134.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="125.6" y="134.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="131.4" y="134.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="137.2" y="134.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="143.0" y="134.5" width="4.8" height="11.5" fill="#ffffff" />
+    <rect class="bar" x="114.0" y="134.5" width="4.8" height="11.5" />
+    <rect class="bar" x="119.8" y="134.5" width="4.8" height="11.5" />
+    <rect class="bar" x="125.6" y="134.5" width="4.8" height="11.5" />
+    <rect class="bar" x="131.4" y="134.5" width="4.8" height="11.5" />
+    <rect class="bar" x="137.2" y="134.5" width="4.8" height="11.5" />
+    <rect class="bar" x="143.0" y="134.5" width="4.8" height="11.5" />
   </g>
   <!-- PHP -->
-  <text x="20" y="164.5" fill="#ffffff" font-family="monospace, Courier New, Menlo, Consolas" font-size="12px">PHP</text>
+  <text class="lang-text" x="20" y="164.5">PHP</text>
   <g>
-    <rect x="114.0" y="155.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="119.8" y="155.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="125.6" y="155.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="131.4" y="155.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="137.2" y="155.0" width="4.8" height="11.5" fill="#ffffff" />
+    <rect class="bar" x="114.0" y="155.0" width="4.8" height="11.5" />
+    <rect class="bar" x="119.8" y="155.0" width="4.8" height="11.5" />
+    <rect class="bar" x="125.6" y="155.0" width="4.8" height="11.5" />
+    <rect class="bar" x="131.4" y="155.0" width="4.8" height="11.5" />
+    <rect class="bar" x="137.2" y="155.0" width="4.8" height="11.5" />
   </g>
   <!-- Python -->
-  <text x="20" y="185.0" fill="#ffffff" font-family="monospace, Courier New, Menlo, Consolas" font-size="12px">Python</text>
+  <text class="lang-text" x="20" y="185.0">Python</text>
   <g>
-    <rect x="114.0" y="175.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="119.8" y="175.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="125.6" y="175.5" width="4.8" height="11.5" fill="#ffffff" />
+    <rect class="bar" x="114.0" y="175.5" width="4.8" height="11.5" />
+    <rect class="bar" x="119.8" y="175.5" width="4.8" height="11.5" />
+    <rect class="bar" x="125.6" y="175.5" width="4.8" height="11.5" />
   </g>
   <!-- Java -->
-  <text x="20" y="205.5" fill="#ffffff" font-family="monospace, Courier New, Menlo, Consolas" font-size="12px">Java</text>
+  <text class="lang-text" x="20" y="205.5">Java</text>
   <g>
-    <rect x="114.0" y="196.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="119.8" y="196.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="125.6" y="196.0" width="4.8" height="11.5" fill="#ffffff" />
+    <rect class="bar" x="114.0" y="196.0" width="4.8" height="11.5" />
+    <rect class="bar" x="119.8" y="196.0" width="4.8" height="11.5" />
+    <rect class="bar" x="125.6" y="196.0" width="4.8" height="11.5" />
   </g>
   <!-- Kotlin -->
-  <text x="20" y="226.0" fill="#ffffff" font-family="monospace, Courier New, Menlo, Consolas" font-size="12px">Kotlin</text>
+  <text class="lang-text" x="20" y="226.0">Kotlin</text>
   <g>
-    <rect x="114.0" y="216.5" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="119.8" y="216.5" width="4.8" height="11.5" fill="#ffffff" />
+    <rect class="bar" x="114.0" y="216.5" width="4.8" height="11.5" />
+    <rect class="bar" x="119.8" y="216.5" width="4.8" height="11.5" />
   </g>
   <!-- C++ -->
-  <text x="20" y="246.5" fill="#ffffff" font-family="monospace, Courier New, Menlo, Consolas" font-size="12px">C++</text>
+  <text class="lang-text" x="20" y="246.5">C++</text>
   <g>
-    <rect x="114.0" y="237.0" width="4.8" height="11.5" fill="#ffffff" />
-    <rect x="119.8" y="237.0" width="4.8" height="11.5" fill="#ffffff" />
+    <rect class="bar" x="114.0" y="237.0" width="4.8" height="11.5" />
+    <rect class="bar" x="119.8" y="237.0" width="4.8" height="11.5" />
   </g>
-  <text x="20" y="268.0" fill="#ffffff" font-family="monospace, Courier New, Menlo, Consolas" font-size="14px">...</text>
+  <text class="dots" x="20" y="268.0">...</text>
 </svg>
