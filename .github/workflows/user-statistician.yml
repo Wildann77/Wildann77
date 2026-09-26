@@ -1,0 +1,25 @@
+name: Update GitHub Language Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate language statistics
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: images/languages.svg
+          hide-keys: general,contributions,repositories
+          max-languages: 100
+          colors: dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
