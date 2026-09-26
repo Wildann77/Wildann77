@@ -12,6 +12,6 @@
   </a>
 </p>
 
-<!-- v1.0.1 -->
-<!-- v1.0.2 -->
-<!-- updated -->
+## 💻 Most Used Languages
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Wildann77&layout=compact&langs_count=8&hide_border=true)
