@@ -14,4 +14,7 @@
 
 ## 💻 Most Used Languages
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Wildann77&layout=compact&langs_count=8&hide_border=true)
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Wildann77&theme=github_dark"
+  alt="Most Used Languages"
+/>
