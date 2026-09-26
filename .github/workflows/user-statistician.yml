@@ -14,12 +14,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate language statistics
-        uses: cicirello/user-statistician@v1
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          image-file: images/languages.svg
-          hide-keys: general,contributions,repositories
-          max-languages: 100
-          colors: dark
+          python-version: '3.11'
+
+      - name: Generate Language Stats Card
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .github/scripts/generate_languages.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add images/languages.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "style: update language stats card" && git push)
