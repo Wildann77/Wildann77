@@ -11,6 +11,4 @@
     porto-ten-flax.vercel.app
   </a>
 </p>
-
-## 💻 Languages
 <img src="./images/languages.svg" alt="Programming Languages" />
