@@ -96,15 +96,17 @@
     <rect class="bar" x="131.4" y="155.0" width="4.8" height="11.5" />
     <rect class="bar" x="137.2" y="155.0" width="4.8" height="11.5" />
   </g>
-  <!-- Python -->
-  <text class="lang-text" x="20" y="185.0">Python</text>
+  <!-- Rust -->
+  <text class="lang-text" x="20" y="185.0">Rust</text>
   <g>
     <rect class="bar" x="114.0" y="175.5" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="175.5" width="4.8" height="11.5" />
     <rect class="bar" x="125.6" y="175.5" width="4.8" height="11.5" />
+    <rect class="bar" x="131.4" y="175.5" width="4.8" height="11.5" />
+    <rect class="bar" x="137.2" y="175.5" width="4.8" height="11.5" />
   </g>
-  <!-- Rust -->
-  <text class="lang-text" x="20" y="205.5">Rust</text>
+  <!-- Python -->
+  <text class="lang-text" x="20" y="205.5">Python</text>
   <g>
     <rect class="bar" x="114.0" y="196.0" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="196.0" width="4.8" height="11.5" />
