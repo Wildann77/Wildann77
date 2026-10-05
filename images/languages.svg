@@ -67,6 +67,8 @@
     <rect class="bar" x="148.8" y="93.5" width="4.8" height="11.5" />
     <rect class="bar" x="154.6" y="93.5" width="4.8" height="11.5" />
     <rect class="bar" x="160.4" y="93.5" width="4.8" height="11.5" />
+    <rect class="bar" x="166.2" y="93.5" width="4.8" height="11.5" />
+    <rect class="bar" x="172.0" y="93.5" width="4.8" height="11.5" />
   </g>
   <!-- Go -->
   <text class="lang-text" x="20" y="123.5">Go</text>
