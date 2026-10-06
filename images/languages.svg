@@ -124,7 +124,6 @@
   <g>
     <rect class="bar" x="114.0" y="216.5" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="216.5" width="4.8" height="11.5" />
-    <rect class="bar" x="125.6" y="216.5" width="4.8" height="11.5" />
   </g>
   <!-- Kotlin -->
   <text class="lang-text" x="20" y="246.5">Kotlin</text>
