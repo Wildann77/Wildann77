@@ -80,7 +80,6 @@
     <rect class="bar" x="137.2" y="114.0" width="4.8" height="11.5" />
     <rect class="bar" x="143.0" y="114.0" width="4.8" height="11.5" />
     <rect class="bar" x="148.8" y="114.0" width="4.8" height="11.5" />
-    <rect class="bar" x="154.6" y="114.0" width="4.8" height="11.5" />
   </g>
   <!-- C# -->
   <text class="lang-text" x="20" y="144.0">C#</text>
