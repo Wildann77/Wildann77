@@ -26,7 +26,7 @@ def get_languages():
         "HTML", "CSS", "Blade", "Shell", "Dockerfile", "Makefile",
         "PowerShell", "Batchfile", "CMake", "Meson", "ShaderLab", "HLSL",
         "Jupyter Notebook", "Mako", "Wolfram Language", "Hack", "Smarty",
-        "PLpgSQL"
+        "PLpgSQL", "JavaScript"
     }
     
     lang_totals = {}

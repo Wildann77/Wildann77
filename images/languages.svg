@@ -36,8 +36,8 @@
     <rect class="bar" x="230.0" y="52.5" width="4.8" height="11.5" />
     <rect class="bar" x="235.8" y="52.5" width="4.8" height="11.5" />
   </g>
-  <!-- JavaScript -->
-  <text class="lang-text" x="20" y="82.5">JavaScript</text>
+  <!-- Rust -->
+  <text class="lang-text" x="20" y="82.5">Rust</text>
   <g>
     <rect class="bar" x="114.0" y="73.0" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="73.0" width="4.8" height="11.5" />
@@ -51,11 +51,9 @@
     <rect class="bar" x="166.2" y="73.0" width="4.8" height="11.5" />
     <rect class="bar" x="172.0" y="73.0" width="4.8" height="11.5" />
     <rect class="bar" x="177.8" y="73.0" width="4.8" height="11.5" />
-    <rect class="bar" x="183.6" y="73.0" width="4.8" height="11.5" />
-    <rect class="bar" x="189.4" y="73.0" width="4.8" height="11.5" />
   </g>
-  <!-- Rust -->
-  <text class="lang-text" x="20" y="103.0">Rust</text>
+  <!-- Go -->
+  <text class="lang-text" x="20" y="103.0">Go</text>
   <g>
     <rect class="bar" x="114.0" y="93.5" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="93.5" width="4.8" height="11.5" />
@@ -64,14 +62,9 @@
     <rect class="bar" x="137.2" y="93.5" width="4.8" height="11.5" />
     <rect class="bar" x="143.0" y="93.5" width="4.8" height="11.5" />
     <rect class="bar" x="148.8" y="93.5" width="4.8" height="11.5" />
-    <rect class="bar" x="154.6" y="93.5" width="4.8" height="11.5" />
-    <rect class="bar" x="160.4" y="93.5" width="4.8" height="11.5" />
-    <rect class="bar" x="166.2" y="93.5" width="4.8" height="11.5" />
-    <rect class="bar" x="172.0" y="93.5" width="4.8" height="11.5" />
-    <rect class="bar" x="177.8" y="93.5" width="4.8" height="11.5" />
   </g>
-  <!-- Go -->
-  <text class="lang-text" x="20" y="123.5">Go</text>
+  <!-- C# -->
+  <text class="lang-text" x="20" y="123.5">C#</text>
   <g>
     <rect class="bar" x="114.0" y="114.0" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="114.0" width="4.8" height="11.5" />
@@ -79,10 +72,9 @@
     <rect class="bar" x="131.4" y="114.0" width="4.8" height="11.5" />
     <rect class="bar" x="137.2" y="114.0" width="4.8" height="11.5" />
     <rect class="bar" x="143.0" y="114.0" width="4.8" height="11.5" />
-    <rect class="bar" x="148.8" y="114.0" width="4.8" height="11.5" />
   </g>
-  <!-- C# -->
-  <text class="lang-text" x="20" y="144.0">C#</text>
+  <!-- Dart -->
+  <text class="lang-text" x="20" y="144.0">Dart</text>
   <g>
     <rect class="bar" x="114.0" y="134.5" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="134.5" width="4.8" height="11.5" />
@@ -91,41 +83,36 @@
     <rect class="bar" x="137.2" y="134.5" width="4.8" height="11.5" />
     <rect class="bar" x="143.0" y="134.5" width="4.8" height="11.5" />
   </g>
-  <!-- Dart -->
-  <text class="lang-text" x="20" y="164.5">Dart</text>
+  <!-- PHP -->
+  <text class="lang-text" x="20" y="164.5">PHP</text>
   <g>
     <rect class="bar" x="114.0" y="155.0" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="155.0" width="4.8" height="11.5" />
     <rect class="bar" x="125.6" y="155.0" width="4.8" height="11.5" />
     <rect class="bar" x="131.4" y="155.0" width="4.8" height="11.5" />
-    <rect class="bar" x="137.2" y="155.0" width="4.8" height="11.5" />
-    <rect class="bar" x="143.0" y="155.0" width="4.8" height="11.5" />
   </g>
-  <!-- PHP -->
-  <text class="lang-text" x="20" y="185.0">PHP</text>
+  <!-- Python -->
+  <text class="lang-text" x="20" y="185.0">Python</text>
   <g>
     <rect class="bar" x="114.0" y="175.5" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="175.5" width="4.8" height="11.5" />
     <rect class="bar" x="125.6" y="175.5" width="4.8" height="11.5" />
     <rect class="bar" x="131.4" y="175.5" width="4.8" height="11.5" />
-    <rect class="bar" x="137.2" y="175.5" width="4.8" height="11.5" />
   </g>
-  <!-- Python -->
-  <text class="lang-text" x="20" y="205.5">Python</text>
+  <!-- Java -->
+  <text class="lang-text" x="20" y="205.5">Java</text>
   <g>
     <rect class="bar" x="114.0" y="196.0" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="196.0" width="4.8" height="11.5" />
-    <rect class="bar" x="125.6" y="196.0" width="4.8" height="11.5" />
-    <rect class="bar" x="131.4" y="196.0" width="4.8" height="11.5" />
   </g>
-  <!-- Java -->
-  <text class="lang-text" x="20" y="226.0">Java</text>
+  <!-- Kotlin -->
+  <text class="lang-text" x="20" y="226.0">Kotlin</text>
   <g>
     <rect class="bar" x="114.0" y="216.5" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="216.5" width="4.8" height="11.5" />
   </g>
-  <!-- Kotlin -->
-  <text class="lang-text" x="20" y="246.5">Kotlin</text>
+  <!-- C++ -->
+  <text class="lang-text" x="20" y="246.5">C++</text>
   <g>
     <rect class="bar" x="114.0" y="237.0" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="237.0" width="4.8" height="11.5" />
