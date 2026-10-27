@@ -88,28 +88,30 @@
     <rect class="bar" x="131.4" y="155.0" width="4.8" height="11.5" />
     <rect class="bar" x="137.2" y="155.0" width="4.8" height="11.5" />
   </g>
-  <!-- PHP -->
-  <text class="lang-text" x="20" y="185.0">PHP</text>
+  <!-- Vue -->
+  <text class="lang-text" x="20" y="185.0">Vue</text>
   <g>
     <rect class="bar" x="114.0" y="175.5" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="175.5" width="4.8" height="11.5" />
     <rect class="bar" x="125.6" y="175.5" width="4.8" height="11.5" />
     <rect class="bar" x="131.4" y="175.5" width="4.8" height="11.5" />
   </g>
-  <!-- Java -->
-  <text class="lang-text" x="20" y="205.5">Java</text>
+  <!-- PHP -->
+  <text class="lang-text" x="20" y="205.5">PHP</text>
   <g>
     <rect class="bar" x="114.0" y="196.0" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="196.0" width="4.8" height="11.5" />
+    <rect class="bar" x="125.6" y="196.0" width="4.8" height="11.5" />
+    <rect class="bar" x="131.4" y="196.0" width="4.8" height="11.5" />
   </g>
-  <!-- Kotlin -->
-  <text class="lang-text" x="20" y="226.0">Kotlin</text>
+  <!-- Java -->
+  <text class="lang-text" x="20" y="226.0">Java</text>
   <g>
     <rect class="bar" x="114.0" y="216.5" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="216.5" width="4.8" height="11.5" />
   </g>
-  <!-- C++ -->
-  <text class="lang-text" x="20" y="246.5">C++</text>
+  <!-- Kotlin -->
+  <text class="lang-text" x="20" y="246.5">Kotlin</text>
   <g>
     <rect class="bar" x="114.0" y="237.0" width="4.8" height="11.5" />
     <rect class="bar" x="119.8" y="237.0" width="4.8" height="11.5" />
